@@ -17,7 +17,7 @@ public class SellerProducts {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
-    private String sellerProductId;
+    private Integer sellerProductId;
 
     @Column
     private Float price;

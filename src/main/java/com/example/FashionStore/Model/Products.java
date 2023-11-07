@@ -15,7 +15,10 @@ public class Products {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
-    private String productId;
+    private Integer productId;
+
+    @Column
+    private String name;
 
     @Column
     private String description;

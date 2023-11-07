@@ -17,7 +17,7 @@ public class ShippingInformation {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
-    private String shippingId;
+    private Integer shippingId;
 
     @Column
     private String address;

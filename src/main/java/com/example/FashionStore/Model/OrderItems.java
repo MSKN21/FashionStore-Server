@@ -17,7 +17,7 @@ public class OrderItems {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
-    private String orderItemsId;
+    private Integer orderItemsId;
 
     @Column
     private Integer quantity;

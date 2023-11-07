@@ -16,7 +16,7 @@ public class Coupons {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
-    private String couponId;
+    private Integer couponId;
 
     @Column
     private String code;

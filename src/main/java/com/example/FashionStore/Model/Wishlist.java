@@ -17,7 +17,7 @@ public class Wishlist {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
-    private String wishlistId;
+    private Integer wishlistId;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "productId")

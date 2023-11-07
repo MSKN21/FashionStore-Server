@@ -19,7 +19,7 @@ public class SellerRatings {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
-    private String sellerRatingId;
+    private Integer sellerRatingId;
 
     @Column
     private String rating;

@@ -19,7 +19,7 @@ public class Payments {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
-    private String paymentId;
+    private Integer paymentId;
 
     @Column
     private String cardNumber;
