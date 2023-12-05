@@ -9,7 +9,7 @@ public interface ProductImagesService {
 
     public ProductImages getProductImageById(Integer productImageId);
 
-    ProductImages createProductImage(Integer productId, ProductImages productImages);
+    public  ProductImages createProductImage(Integer productId, ProductImages productImages);
 
     public ProductImages updateProductImage(ProductImages productImages);
 
