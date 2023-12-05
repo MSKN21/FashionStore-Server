@@ -7,9 +7,11 @@ import com.example.fashionstore.repository.ProductImagesRepository;
 import com.example.fashionstore.repository.ProductsRepository;
 import com.example.fashionstore.service.ProductImagesService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ProductImagesServiceImpl implements ProductImagesService {
 
     @Autowired

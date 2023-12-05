@@ -10,9 +10,11 @@ import com.example.fashionstore.repository.ProductsRepository;
 import com.example.fashionstore.repository.UserRepository;
 import com.example.fashionstore.service.ProductReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ProductReviewServiceImpl implements ProductReviewService {
 
     @Autowired
